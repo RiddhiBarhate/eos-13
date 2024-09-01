@@ -42,7 +42,7 @@ const CategoryList = () => {
                     action
                 </Link>
 
-                <Link href={`/blog`} className={`${styles.category} ${styles.stimulation}`}>
+                <Link href={`/blog`} className={`${styles.category} ${styles.simulation}`}>
                     <Image
                         src="/wpic.png"
                         alt="" 
@@ -50,7 +50,7 @@ const CategoryList = () => {
                         height={32}
                         className={styles.image}
                     />
-                    stimulation
+                    simulation
                 </Link>
 
                 <Link href={`/blog`} className={`${styles.category} ${styles.puzzle}`}>
